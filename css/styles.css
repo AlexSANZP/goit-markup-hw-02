@@ -1,3 +1,64 @@
+:root {
+    --main-tit-color: #212121;
+    --second-tit-color: #ffffff;
+    --first-h-color: #212121;
+    --first-tex-color: #757575;
+    --first-li-color: #212121;
+    --accent-li-color: #2196f3;
+    --third-li-color: #ffffff;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/*----------------------- HEADER -------------------- */
+/*.hdr {
+    background-color: yellow;
+}
+*/
+
+.hdr-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-li-color);
+}
+
+.hdr-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-li-color);
+}
+
+.hdr-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-li-color);
+}
+
+
+
+
+
+.black-li {
+    color: #212121;
+}
+.black-li:hover {
+    color: #2196f3;
 }
