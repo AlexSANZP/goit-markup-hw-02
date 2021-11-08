@@ -32,7 +32,31 @@ body {
 }
 */
 
-.hdr-list .link {
+/* .hdr-list .link {
+  color: var(--accent-link-color);
+} */
+
+.hdr-logo-accent {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-link-color);
+}
+
+.hdr-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.hdr-navi .link.current {
   color: var(--accent-link-color);
 }
 
@@ -99,7 +123,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--third-li-color);
+  color: var(--accent-btn-text-color);
+  background-color: var(--accent-link-color);
 }
 /* font-style: normal; */
 
@@ -136,6 +161,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--main-tit-color);
 }
 /* color: #212121; */
 
@@ -197,6 +223,16 @@ body {
   background-color: var(--first-tex-color);
 }
 
+.ftr-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-btn-text-color);
+}
+
 .ftr-address {
   font-style: normal;
   font-weight: 400;
@@ -253,3 +289,25 @@ body {
 .port-btn:focus {
   color: var(--accent-btn-text-color);
 }
+
+.port-sect-one-h-three {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-tit-color);
+}
+
+.port-sect-one-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--first-tex-color);
+}
+/* ------ FOOTER ------------ */
+/* .port-ftr {
+  background-color: var(--sec-one-bkground);
+} */
