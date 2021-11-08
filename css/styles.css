@@ -296,17 +296,28 @@ body {
 /* ---------- PORTFOLIO.html ------------- */
 /* ---------- MAIN ------------- */
 
+.port-h-one {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-tit-color);
+}
+
+
 /* font-style: normal; */
 .port-btn {
   font-family: inherit;
   font-style: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-btn-text-color);
-  background-color: var(--sec-two-bkground);
+  background-color: var(--sec-three-bkground);
+  border:0;
 }
 /*     font-family: Roboto; */
 
