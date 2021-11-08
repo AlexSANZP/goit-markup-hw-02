@@ -1,8 +1,10 @@
 :root {
   --main-tit-color: #212121;
   --second-tit-color: #ffffff;
+  --first-logo-color: #000000;
   --sec-one-bkground: #2f303a;
-  --sec-other-bkground: #e5e5e5;
+  --sec-two-bkground: #e5e5e5;
+  --sec-three-bkground: #f5f4fa;
   --first-tex-color: #757575;
   --first-link-color: #212121;
   --accent-link-color: #2196f3;
@@ -53,7 +55,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--first-logo-color);
 }
 
 .hdr-navi .link.current {
@@ -114,8 +116,9 @@ body {
   color: var(--second-tit-color);
 }
 
+/* font-family: inherit; */
 .mn-btn {
-  font-family: inherit;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -128,9 +131,29 @@ body {
 }
 /* font-style: normal; */
 
-.mn-sect-two {
+/* .mn-sect-two {
   background-color: var(--sec-other-bkground);
+} */
+/* Для скрытого раздела после  <h1> "Эффективные решения для вашего бизнеса" */
+.headen {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-tit-color);
+}
+
+
 
 /*  ------- Внимание к деталям ---- */
 .mn-sect-three {
@@ -175,7 +198,7 @@ body {
 /* color: #212121; */
 
 .mn-sect-four {
-  color: var(--sec-other-bkground);
+  color: var(--sec-two-bkground);
 }
 
 .sect-four-h-two {
@@ -188,7 +211,7 @@ body {
 }
 
 .mn-sect-five {
-  color: var(--sec-other-bkground);
+  color: var(--sec-three-bkground);
 }
 
 .sect-five-h-two {
@@ -206,7 +229,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--first-h-color);
+  color: var(--main-tit-color);
 }
 
 .sect-five-p {
@@ -220,7 +243,7 @@ body {
 
 /* ------ FOOTER ------------ */
 .ftr {
-  background-color: var(--first-tex-color);
+  background-color: var(--sec-one-bkground);
 }
 
 .ftr-logo {
@@ -273,21 +296,24 @@ body {
 /* ---------- PORTFOLIO.html ------------- */
 /* ---------- MAIN ------------- */
 
+/* font-style: normal; */
 .port-btn {
   font-family: inherit;
-  font-style: normal;
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-btn-text-color);
+  background-color: var(--sec-two-bkground);
 }
 /*     font-family: Roboto; */
 
 .port-btn:hover,
-.port-btn:focus {
+.port-btn:focus, .active {
   color: var(--accent-btn-text-color);
+  background-color: var(--accent-link-color);
 }
 
 .port-sect-one-h-three {
