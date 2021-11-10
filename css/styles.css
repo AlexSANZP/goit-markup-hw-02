@@ -311,10 +311,7 @@ body {
   color: var(--ftr-mail-tel-color);
 }
 
-.ftr-tel:hover,
-.ftr-tel:focus {
-  color: var(--accent-link-color); */
-/* } */
+
 
 /* ---------- PORTFOLIO.html ------------- */
 /* ---------- MAIN ------------- */
@@ -380,6 +377,6 @@ body {
   color: var(--first-tex-color);
 }
 /* ------ FOOTER ------------ */
-/* .port-ftr {
+/* .port-footer {
   background-color: var(--sec-one-bkground);
 } */
