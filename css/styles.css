@@ -3,7 +3,7 @@
   --primary-shade-color: #212121;
   --primary-shade-two-color: #2f303a;
   --secondary-color: #ffffff;
-  --secondary-two-color: #e5e5e5;
+  /* --secondary-two-color: #e5e5e5; */
   --secondary-three-color: #f5f4fa;
   --secondary-four-color: #757575;
   --accent-link-color: #2196f3;
@@ -27,7 +27,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-shade-color);
-  background-color: var(--secondary-two-color);
+  background-color: var(--secondary-color);
 }
 /* background-color: var(--primary-shade-two-color); */
 
@@ -163,9 +163,9 @@ body {
   color: var(--secondary-four-color);
 }
 
+/* background-color: var(--secondary-two-color); */
 .work-section {
-  color: var(--secondary-two-color);
-  background-color: var(--secondary-two-color);
+    background-color: var(--secondary-color);
 
 }
 
@@ -241,7 +241,7 @@ body {
 }
 /* ---------- MAIN ------------- */
 .portfolio-section {
-  background-color: var(--secondary-two-color);
+  background-color: var(--secondary-color);
 }
 
 .secondary-btn {
